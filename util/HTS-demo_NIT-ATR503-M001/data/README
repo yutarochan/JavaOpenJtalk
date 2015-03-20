@@ -1,0 +1,28 @@
+Directory structure
+
+cmp: Training data in HTK data format (natural endian).
+     You can see these files as HList -C hlist.conf cmp/nitech_jp_atr503_m001_a01.cmp.
+
+labels: Context-independent and -dependent labels in HTK label format (ascii).
+
+lf0: Log fundamental frequency values extracted by SPTK (4-byte float, natural endian).
+
+lists: Context-independent and -dependent model lists (ascii).
+
+mgc: Mel-generalized cepstral (MGC) coefficients or MGC-LSPs extracted by SPTK (4-byte float, natural endian).
+
+questions: Question files for decision tree-based context clustering (ascii).
+
+raw: 48kHz raw audio (2-byte short, little endian).
+
+scp: Data path files (ascii).
+
+scripts: shell, perl, and tcl scripts (ascii).
+
+win: windows coefficients to calculate dynamic features (ascii).
+
+
+Acknowledgment
+
+This demonstration uses a part of the Nitech Japanese Speech Database "NIT ATR503 M001."
+See COPYING for copyright of this database.
